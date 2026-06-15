@@ -1,36 +1,36 @@
 # txnlab/homebrew-tap
 
-Homebrew tap for [`zerosignal`](https://github.com/txnlab/zerosignal) — a drop-in,
-private, OpenAI-compatible inference proxy.
+Homebrew tap for the [zerosignal](https://github.com/txnlab/zs-proxy) tooling —
+drop-in, private, OpenAI-compatible inference.
 
 ## Install
 
 ```sh
-brew install txnlab/tap/zerosignal
+brew install txnlab/tap/zs-proxy
 ```
 
 Or tap first, then install:
 
 ```sh
 brew tap txnlab/tap
-brew install zerosignal
+brew install zs-proxy
 ```
 
 ## Upgrade
 
 ```sh
-brew upgrade zerosignal
+brew upgrade zs-proxy
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall zerosignal
+brew uninstall zs-proxy
 brew untap txnlab/tap
 ```
 
 ---
 
-The cask in this tap is generated automatically by
-[goreleaser](https://goreleaser.com) on each tagged `zerosignal` release — do not
-edit `Casks/*.rb` by hand.
+Casks in this tap are generated automatically by
+[goreleaser](https://goreleaser.com) on each tagged release — do not edit
+`Casks/*.rb` by hand.
