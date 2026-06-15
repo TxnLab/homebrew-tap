@@ -3,17 +3,17 @@ cask "zs-proxy" do
   version "0.0.1"
 
   on_macos do
-    sha256 "adc4af27dcb55bdd776fdf50ff54d172f8c9fe0a3dd2b93e802db1b3c05c0aa4"
+    sha256 "7cb9497b254b14f130137c5be743021b4129bbed87d162faa249f228b9d71108"
     url "https://github.com/txnlab/zs-proxy/releases/download/v#{version}/zs-proxy_#{version}_darwin_all.tar.gz"
   end
 
   on_linux do
     on_intel do
-      sha256 "a010237860a9447600f021b5a6ce1ec3b83a52c71de9826daf325858bf44febe"
+      sha256 "4d3f462b700501f5e4d3eb66b43204365bd46170f67607c3c7a1936e66b5fdab"
       url "https://github.com/txnlab/zs-proxy/releases/download/v#{version}/zs-proxy_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "62eeb34233e7b40c9899e41bd3e9e116a804d3803aeec7d989c5ed6e286ced89"
+      sha256 "944a575973cf1b19f35082fc80a46f9416e17a215d86f42b59b6b674467c00e5"
       url "https://github.com/txnlab/zs-proxy/releases/download/v#{version}/zs-proxy_#{version}_linux_arm64.tar.gz"
     end
   end
